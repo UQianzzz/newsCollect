@@ -153,67 +153,71 @@
 #                         企业与品牌
 # ═══════════════════════════════════════════════════════════════
 
-/深度求索|幻方量化|梁文锋|\bDeepSeek\b/ => DeepSeek
+# ==========================================
+# 1. 游戏行业与核心巨头（精准避坑版）
+# ==========================================
 
-/网易|丁磊|梦幻西游|大话西游|阴阳师|逆水寒|永劫无间|第五人格|\bNetEase\b|\bNetease Games\b/ => 网易游戏
+# === 游戏行业通用 ===
+/游戏开发|游戏引擎|\bCocos\b|\bUnity\b|\bUnreal\b|游戏版号|云游戏|主机游戏|单机游戏|独立游戏|游戏发行|游戏出海|\bConsole Game\b|\bIndie Game\b/i => 游戏行业
 
-/米哈游|米忽悠|大伟哥|蔡浩宇|原神|崩坏|星穹铁道|绝区零|\bmiHoYo\b|\bHoyoverse\b|\bGenshin\b|\bHonkai\b/ => 米哈游
+# === 腾讯游戏 ===
+/腾讯游戏|天美工作室|光子工作室|魔方工作室|王者荣耀|和平精英|英雄联盟手游|\bTencent Games\b|\bTiMi Studio\b/i => 腾讯游戏
 
-/完美世界|祖龙|诛仙|完美手游|幻塔|\bPerfect World\b|\bPW\b/ => 完美世界
+# === 网易游戏 ===
+/网易游戏|丁磊|梦幻西游|大话西游|阴阳师手游|逆水寒|永劫无间|\bNetEase Games\b/i => 网易游戏
 
-/三七互娱|三七游戏|37游戏|传奇霸业|斗罗大陆|精灵盛典|\b37 Interactive\b|\b37Games\b/ => 三七互娱
+# === 米哈游 ===
+/米哈游|大伟哥|原神|崩坏：星穹铁道|崩坏3|绝区零|\bmiHoYo\b|\bHoyoverse\b/i => 米哈游
 
-/世纪华通|盛趣游戏|传奇世界|热血传奇|龙之谷|冒险岛|\bShengqu\b|\bShanda\b|\bLegend\b/ => 世纪华通（盛趣）
+# === 任天堂 ===
+/任天堂|塞尔达传说|马力欧|宝可梦|Switch 游戏|\bNintendo\b/i => 任天堂
 
-/育碧|土豆厂|刺客信条|孤岛惊魂|看门狗|彩虹六号|全境封锁|\bUbisoft\b|\bUbi\b/ => 育碧
 
-/暴雪|玻璃渣|魔兽世界|守望先锋|暗黑破坏神|星际争霸|炉石传说|风暴英雄|\bBlizzard\b|\bActivision Blizzard\b/ => 暴雪（动视暴雪）
+# ==========================================
+# 2. AI 编程与前沿工具（2026 最新版）
+# ==========================================
 
-/任天堂|老任|红帽子|绿帽子|塞尔达|宝可梦|动森|马力欧|马里奥|\bNintendo\b|\bSwitch\b/ => 任天堂
+# === AI 智能体与自然语言编程 ===
+/Vibe Coding|自然语言编程|AI 编程助手|AI 编码助手|Coding Agent|AI 智能体|\bAI Agent\b/i => AI智能体与编程
 
-/索尼|SIE|PlayStation|PS4|PS5|战神|最后生还者|地平线|蜘蛛侠|\bSony\b|\bPlayStation\b|\bPS\b/ => 索尼（PlayStation）
+# === Cursor ===
+/\bCursor\b|Cursor IDE|Composer模式/i => Cursor
 
-/微软|Xbox|XGP|光环|战争机器|极限竞速|我的世界|\bMicrosoft\b|\bXbox\b|\bMojang\b/ => 微软（Xbox）
+# === GitHub Copilot ===
+/GitHub Copilot|Copilot Chat|Copilot CLI|\bGitHub Copilot\b/i => GitHub Copilot
 
-/EA|艺电|FIFA|战地|极品飞车|模拟人生|Apex英雄|死亡空间|\bElectronic Arts\b|\bEA Games\b/ => EA（艺电）
+# === Google Antigravity ===
+/\bAntigravity\b|Google Antigravity/i => Google Antigravity
 
-/Take-Two|R星|Rockstar|GTA|荒野大镖客|生化奇兵|无主之地|\bTake-Two\b|\bRockstar\b|\b2K\b/ => Take-Two（R星/2K）
 
-/Epic|堡垒之夜|虚幻引擎|战争机器|火箭联盟|\bEpic Games\b|\bUnreal\b/ => Epic Games
+# ==========================================
+# 3. 核心科技大厂与主流模型
+# ==========================================
 
-/Valve|V社|Steam|半条命|传送门|Dota2|CSGO|反恐精英|\bValve\b|\bSteam\b|\bCS\b/ => Valve（V社）
+# === OpenAI & Claude ===
+/OpenAI|ChatGPT|GPT-4|GPT-5|Sora|DALL-E|Sam Altman|\bOpenAI\b/i => OpenAI
+/\bAnthropic\b|\bClaude\b|\bDario Amodei\b/i => Claude
 
-/腾讯游戏|天美|光子|魔方|北极光|王者荣耀|和平精英|英雄联盟|CF|DNF|\bTencent Games\b|\bTiMi\b|\bPhoton\b|\bLOL\b|\bCrossFire\b/ => 腾讯游戏
+# === 硅谷巨头 ===
+/微软|\bMicrosoft\b|\bWindows\b|\bAzure\b|\bCopilot\b/i => 微软
+/谷歌|皮查伊|安卓|油管|\bGoogle\b|\bAndroid\b|\bYouTube\b|\bGemini\b|\bDeepMind\b/i => 谷歌
+/库克|\biPhone\b|\biPad\b|\bMacBook\b|\biOS\b|\bVision Pro\b|\bApple\b/i => 苹果
+/深度求索|幻方量化|梁文锋|\bDeepSeek\b/i => DeepSeek
+/qwen|minimax|glm/i => 国产开源模型
 
-/qwen|minimax|glm/ => 国产开源模型
-/微软|\bMicrosoft\b|\bWindows\b|\bAzure\b|\bSatya Nadella\b|\bCopilot\b/ => 微软
-/谷歌|皮查伊|安卓|油管|\bGoogle\b|\bAlphabet\b|\bAndroid\b|\bChrome\b|\bYouTube\b|\bGemini\b|\bDeepMind\b|\bWaymo\b/ => 谷歌
-/库克|\biPhone\b|\biPad\b|\bMacBook\b|\biOS\b|\bVision Pro\b|\bAirPods\b|\bApple\b|\bTim Cook\b/ => 苹果
 
-/\bAnthropic\b|\bClaude\b|\bDario Amodei\b/ => Claude
+# ==========================================
+# 4. AI 技术与学术概念（HCI 及工程）
+# ==========================================
 
-/OpenAI|ChatGPT|GPT-4|GPT-5|Sora|DALL-E|Sam Altman|Ilya Sutskever|Greg Brockman|\bOpenAI\b/ => OpenAI
-/Cursor|AI原生IDE|Composer|Agent模式|\bCursor\b/ => Cursor
+# === 提示词工程 ===
+/Prompt|提示词|System Prompt|系统提示词|Few-Shot|Chain of Thought/i => 提示词工程
 
-/GitHub Copilot|Copilot|Copilot Chat|Copilot CLI|\bGitHub Copilot\b/ => GitHub Copilot
-/Antigravity|Google Antigravity|Gemini高级编程|\bAntigravity\b/ => Google Antigravity
-
-/Prompt|提示词|System Prompt|系统提示词|Few-Shot|Chain of Thought|\bPrompt\b|\bSystem Prompt\b/ => 提示词工程
-
-/Token|上下文窗口|Context Window|\bToken\b|\bContext Window\b/ => Token与上下文窗口
-
-/RAG|检索增强生成|向量数据库|\bRAG\b|\bRetrieval Augmented\b/ => RAG检索增强生成
-
-/Tool Calling|Function Calling|工具调用|\bTool Calling\b|\bFunction Calling\b/ => 工具调用
-
-/MCP|Model Context Protocol|模型上下文协议|\bMCP\b/ => MCP模型上下文协议
-
-/Agent|智能体|Agentic|自主智能体|\bAgent\b|\bAgentic\b/ => AI智能体
-
-/Hallucination|AI幻觉|模型幻觉|\bHallucination\b/ => AI幻觉
-
-/Inference|模型推理|LLM推理|\bInference\b/ => 模型推理
-
-/LLM|大语言模型|Large Language Model|\bLLM\b/ => 大语言模型
-
-/Vibe Coding|自然语言编程|vibe-coding|\bVibe Coding\b/ => Vibe Coding
+# === 核心架构与协议 ===
+/MCP|Model Context Protocol|模型上下文协议|\bMCP\b/i => MCP模型上下文协议
+/RAG|检索增强生成|向量数据库|\bRAG\b/i => RAG检索增强生成
+/Tool Calling|Function Calling|工具调用|\bTool Calling\b|\bFunction Calling\b/i => 工具调用
+/Token|上下文窗口|Context Window|\bToken\b|\bContext Window\b/i => Token与上下文窗口
+/Hallucination|AI幻觉|模型幻觉|\bHallucination\b/i => AI幻觉
+/Inference|模型推理|LLM推理|\bInference\b/i => 模型推理
+/LLM|大语言模型|Large Language Model|\bLLM\b/i => 大语言模型
