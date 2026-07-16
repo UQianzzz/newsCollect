@@ -153,106 +153,67 @@
 #                         企业与品牌
 # ═══════════════════════════════════════════════════════════════
 
-/胖东来|于东来/ => 胖东来
-
 /深度求索|幻方量化|梁文锋|\bDeepSeek\b/ => DeepSeek
 
-/华为|任正非|余承东|鸿蒙|海思|昇腾|鲲鹏|\bHUAWEI\b|\bHarmonyOS\b|\bHiSilicon\b/ => 华为
+/网易|丁磊|梦幻西游|大话西游|阴阳师|逆水寒|永劫无间|第五人格|\bNetEase\b|\bNetease Games\b/ => 网易游戏
 
-/比亚迪|王传福|方程豹|腾势|仰望|弗迪|刀片电池|云辇|\bBYD\b|\bDenza\b|\bYangwang\b/ => 比亚迪
+/米哈游|米忽悠|大伟哥|蔡浩宇|原神|崩坏|星穹铁道|绝区零|\bmiHoYo\b|\bHoyoverse\b|\bGenshin\b|\bHonkai\b/ => 米哈游
 
-/大疆|汪滔|灵眸|如影|\bDJI\b|\bRoboMaster\b|\bMavic\b|\bZenmuse\b/ => 大疆
+/完美世界|祖龙|诛仙|完美手游|幻塔|\bPerfect World\b|\bPW\b/ => 完美世界
 
-/宇树|王兴兴|\bUnitree\b/ => 宇树机器人
+/三七互娱|三七游戏|37游戏|传奇霸业|斗罗大陆|精灵盛典|\b37 Interactive\b|\b37Games\b/ => 三七互娱
 
-/智元|灵犀|稚晖君|彭志辉|AgiBot/ => 智元机器人
-/众擎|EngineAI|赵同阳/ => 众擎机器人
+/世纪华通|盛趣游戏|传奇世界|热血传奇|龙之谷|冒险岛|\bShengqu\b|\bShanda\b|\bLegend\b/ => 世纪华通（盛趣）
 
-/黑神话|冯骥/ => 黑神话悟空
+/育碧|土豆厂|刺客信条|孤岛惊魂|看门狗|彩虹六号|全境封锁|\bUbisoft\b|\bUbi\b/ => 育碧
 
-/影之刃零|梁其伟/ => 影之刃零
+/暴雪|玻璃渣|魔兽世界|守望先锋|暗黑破坏神|星际争霸|炉石传说|风暴英雄|\bBlizzard\b|\bActivision Blizzard\b/ => 暴雪（动视暴雪）
 
-/三体|流浪地球|刘慈欣|郭帆/ => 三体/流浪地球
+/任天堂|老任|红帽子|绿帽子|塞尔达|宝可梦|动森|马力欧|马里奥|\bNintendo\b|\bSwitch\b/ => 任天堂
 
-申奥
+/索尼|SIE|PlayStation|PS4|PS5|战神|最后生还者|地平线|蜘蛛侠|\bSony\b|\bPlayStation\b|\bPS\b/ => 索尼（PlayStation）
 
-/京东|刘强东|\bJD\b|\bJingdong\b/ => 京东
+/微软|Xbox|XGP|光环|战争机器|极限竞速|我的世界|\bMicrosoft\b|\bXbox\b|\bMojang\b/ => 微软（Xbox）
 
-/字节|张一鸣|梁汝波|抖音|\bByteDance\b|\bTikTok\b|\bDouyin\b|\bLark\b|\bCapCut\b/ => 字节跳动
+/EA|艺电|FIFA|战地|极品飞车|模拟人生|Apex英雄|死亡空间|\bElectronic Arts\b|\bEA Games\b/ => EA（艺电）
 
-/腾讯|鹅厂|马化腾|微信|QQ|天美|阅文集团|微众银行|\bTencent\b|\bPony Ma\b|\bWeChat\b|\bLightSpeed\b|\bWeBank\b/ => 腾讯
+/Take-Two|R星|Rockstar|GTA|荒野大镖客|生化奇兵|无主之地|\bTake-Two\b|\bRockstar\b|\b2K\b/ => Take-Two（R星/2K）
+
+/Epic|堡垒之夜|虚幻引擎|战争机器|火箭联盟|\bEpic Games\b|\bUnreal\b/ => Epic Games
+
+/Valve|V社|Steam|半条命|传送门|Dota2|CSGO|反恐精英|\bValve\b|\bSteam\b|\bCS\b/ => Valve（V社）
+
+/腾讯游戏|天美|光子|魔方|北极光|王者荣耀|和平精英|英雄联盟|CF|DNF|\bTencent Games\b|\bTiMi\b|\bPhoton\b|\bLOL\b|\bCrossFire\b/ => 腾讯游戏
 
 /qwen|minimax|glm/ => 国产开源模型
-
-/特斯拉|马斯克|\bTesla\b|\bElon Musk\b|\bCybertruck\b|\bModel 3\b|\bModel Y\b|\bModel S\b|\bModel X\b|\bFSD\b/ => 特斯拉
-
-/英伟达|黄仁勋|\bNVIDIA\b|\bGeForce\b|\bRTX\b|\bCUDA\b|\bJensen Huang\b/ => 英伟达
-/苏姿丰|锐龙|霄龙|\bAMD\b|\bRyzen\b|\bEPYC\b|\bRadeon\b|\bLisa Su\b/ => AMD
-
 /微软|\bMicrosoft\b|\bWindows\b|\bAzure\b|\bSatya Nadella\b|\bCopilot\b/ => 微软
 /谷歌|皮查伊|安卓|油管|\bGoogle\b|\bAlphabet\b|\bAndroid\b|\bChrome\b|\bYouTube\b|\bGemini\b|\bDeepMind\b|\bWaymo\b/ => 谷歌
 /库克|\biPhone\b|\biPad\b|\bMacBook\b|\biOS\b|\bVision Pro\b|\bAirPods\b|\bApple\b|\bTim Cook\b/ => 苹果
 
-/\bOpenAI\b|\bChatGPT\b|\bSora\b|\bDALL-E\b|\bSam Altman\b|\bGreg Brockman\b/ => OpenAI
 /\bAnthropic\b|\bClaude\b|\bDario Amodei\b/ => Claude
 
+/OpenAI|ChatGPT|GPT-4|GPT-5|Sora|DALL-E|Sam Altman|Ilya Sutskever|Greg Brockman|\bOpenAI\b/ => OpenAI
+/Cursor|AI原生IDE|Composer|Agent模式|\bCursor\b/ => Cursor
 
-# ═══════════════════════════════════════════════════════════════
-#                         国家与地区
-# ═══════════════════════════════════════════════════════════════
+/GitHub Copilot|Copilot|Copilot Chat|Copilot CLI|\bGitHub Copilot\b/ => GitHub Copilot
+/Antigravity|Google Antigravity|Gemini高级编程|\bAntigravity\b/ => Google Antigravity
 
-[中国]
-国产
-中国
+/Prompt|提示词|System Prompt|系统提示词|Few-Shot|Chain of Thought|\bPrompt\b|\bSystem Prompt\b/ => 提示词工程
 
-[东亚]
-日本
-朝鲜
-韩国
+/Token|上下文窗口|Context Window|\bToken\b|\bContext Window\b/ => Token与上下文窗口
 
-[北美]
-美国
-加拿大
+/RAG|检索增强生成|向量数据库|\bRAG\b|\bRetrieval Augmented\b/ => RAG检索增强生成
 
-[西欧]
-法国
-英国
+/Tool Calling|Function Calling|工具调用|\bTool Calling\b|\bFunction Calling\b/ => 工具调用
 
-/俄罗斯|俄国/ => 俄罗斯
+/MCP|Model Context Protocol|模型上下文协议|\bMCP\b/ => MCP模型上下文协议
 
-印度
+/Agent|智能体|Agentic|自主智能体|\bAgent\b|\bAgentic\b/ => AI智能体
 
+/Hallucination|AI幻觉|模型幻觉|\bHallucination\b/ => AI幻觉
 
-# ═══════════════════════════════════════════════════════════════
-#                         科技领域
-# ═══════════════════════════════════════════════════════════════
+/Inference|模型推理|LLM推理|\bInference\b/ => 模型推理
 
-[AI 相关]
-/(?<![a-zA-Z])ai(?![a-zA-Z])/
-人工智能
+/LLM|大语言模型|Large Language Model|\bLLM\b/ => 大语言模型
 
-[芯片]
-芯片
-光刻机
-半导体
-
-/水电|雅鲁藏布江/ => 水电
-/光伏|太阳能/ => 光伏
-核能
-能源
-
-/自动驾驶|无人驾驶|智驾/ => 自动驾驶
-
-机器人
-/机械狗|四足/ => 机器狗
-具身智能
-
-/月球|登月|火星|宇宙|飞船|航天|空间站|卫星/ => 航天
-
-# 前沿科技
-量子
-脑机
-基因
-
-# 产业政策
-生产力
+/Vibe Coding|自然语言编程|vibe-coding|\bVibe Coding\b/ => Vibe Coding
