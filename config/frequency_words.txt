@@ -203,7 +203,6 @@
 /谷歌|皮查伊|安卓|油管|\bGoogle\b|\bAndroid\b|\bYouTube\b|\bGemini\b|\bDeepMind\b/i => 谷歌
 /库克|\biPhone\b|\biPad\b|\bMacBook\b|\biOS\b|\bVision Pro\b|\bApple\b/i => 苹果
 /深度求索|幻方量化|梁文锋|\bDeepSeek\b/i => DeepSeek
-/qwen|minimax|glm/i => 国产开源模型
 
 
 # ==========================================
