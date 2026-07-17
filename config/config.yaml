@@ -118,10 +118,6 @@ rss:
       url: "http://www.ruanyifeng.com/blog/atom.xml"
       enabled: false                  # 禁用
       # max_age_days: 3               # 示例：推送 3 天内的文章（更新较慢的博客）
-     
-    - id: "cocos-forum"
-      name: "Cocos 官方论坛"
-      url: "https://forum.cocos.org/posts.rss"
 
     - id: "indienova"
       name: "indienova 独立游戏"
@@ -254,7 +250,7 @@ display:
 
     rss: true                         # RSS 订阅区域（true=显示并分析, false=隐藏并跳过分析）
     standalone: false                 # 独立展示区：完整热榜/RSS，不受关键词过滤（true=显示, false=隐藏）
-    ai_analysis: true                 # AI 分析区域（true=显示, false=隐藏）
+    ai_analysis: false                 # AI 分析区域（true=显示, false=隐藏）
 
   # 独立展示区：将指定平台/RSS 完整展示，不受关键词过滤
   # 推送展示由 regions.standalone 控制，AI 分析由 ai_analysis.include_standalone 控制
