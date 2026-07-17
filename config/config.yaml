@@ -67,32 +67,16 @@ platforms:
                                         # 如果你自行部署了 newsnow，填入你的地址，如: https://your-domain.com/api/s
   sources:
   # === 1. 游戏开发与商业（核心阵地） ===
-  - id: "cocos-forum"
-    name: "Cocos官方论坛"         # 解决具体技术坑、引擎动态、同行交流的第一前线
-  - id: "indienova"
-    name: "indienova 独立游戏"    # 玩法设计、独立游戏开发日记、同行灵感碰撞
-  - id: "gamelook"
-    name: "GameLook"              # 追踪游戏市场风向、爆款小游戏、商业化数据
   
   # === 2. AI 编程与前沿（效率引擎） ===
-  - id: "cursor-forum"
-    name: "Cursor 官方社区"        # 交流 AI 辅助编程实战技巧、.cursorrules 提示词的最佳场所
-  - id: "reddit-localllama"
-    name: "Reddit LocalLLaMA"     # 全球最活跃的开源/本地 AI 技术落地与编程 Agent 讨论区
-  - id: "swe-bench"
-    name: "SWE-bench 评测榜单"     # 洞察哪家 AI 程序员/Agent 解决真实 Bug 能力最强
   
   # === 3. 学术研究与人机交互（深度输入） ===
-  - id: "paperswithcode"
-    name: "Papers with Code"      # 将前沿学术论文与开源代码直接关联的极客平台
   
   # === 4. 综合科技与极客社区（视野拓展） ===
   - id: "v2ex"
     name: "V2EX"                  # 程序员大本营，掌握国内一线开发者的真实生存状态与技术吐槽
   - id: "hackernews"
     name: "Hacker News"           # 全球极客的风向标，技术视野与新奇开源项目的源头
-  - id: "ruanyifeng-weekly"
-    name: "科技爱好者周刊"         # 每周精选，获取奇思妙想、实用工具和行业趋势的高效渠道
   - id: "nowcoder"
     name: "牛客网"                # 针对求职、前端/游戏岗位面试、行业招聘动态的垂直社区
   - id: "github"
@@ -135,9 +119,41 @@ rss:
       enabled: false                  # 禁用
       # max_age_days: 3               # 示例：推送 3 天内的文章（更新较慢的博客）
      
-    - id: "yahoo-finance"
-      name: "雅虎财经"
-      url: "https://finance.yahoo.com/news/rssindex"
+    - id: "cocos-forum"
+      name: "Cocos 官方论坛"
+      url: "https://forum.cocos.org/posts.rss"
+
+    - id: "indienova"
+      name: "indienova 独立游戏"
+      url: "https://indienova.com/feed"
+
+    - id: "gamelook"
+      name: "GameLook"
+      url: "http://www.gamelook.com.cn/feed"
+
+    - id: "cursor-forum"
+      name: "Cursor 官方社区"
+      url: "https://forum.cursor.com/latest.rss"
+
+    - id: "reddit-localllama"
+      name: "Reddit LocalLLaMA"
+      url: "https://www.reddit.com/r/LocalLLaMA/.rss"
+
+    - id: "swe-bench"
+      name: "SWE-bench 官方博客"
+      url: "https://www.swebench.com/feed.xml"
+
+    - id: "arxiv-hc"
+      name: "arXiv HCI"
+      url: "https://arxiv.org/rss/cs.HC"
+
+    - id: "paperswithcode"
+      name: "Papers with Code"
+      url: "https://paperswithcode.com/rss/trending/"
+
+    - id: "infoq"
+      name: "InfoQ"
+      url: "https://feed.infoq.com/"
 
     # 自定义源示例
     # - id: "custom-feed"
