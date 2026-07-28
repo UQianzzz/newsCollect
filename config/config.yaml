@@ -102,19 +102,13 @@ rss:
   # - 正整数：覆盖全局设置，只推送此天数内的文章
   # - 0：禁用此频道的新鲜度过滤，推送所有文章
   feeds:
-    - id: "hacker-news"
-      name: "Hacker News"
-      url: "https://hnrss.org/frontpage"
-
     - id: "ruanyifeng"
       name: "阮一峰的网络日志"
       url: "http://www.ruanyifeng.com/blog/atom.xml"
-      enabled: false                  # 禁用
-      # max_age_days: 3               # 示例：推送 3 天内的文章（更新较慢的博客）
 
     - id: "indienova"
       name: "indienova 独立游戏"
-      url: "https://indienova.com/gamedb/rss"
+      url: "https://rss.buzz/indienova/article"
 
     - id: "gamelook"
       name: "GameLook"
@@ -122,7 +116,7 @@ rss:
 
     - id: "reddit-localllama"
       name: "Reddit LocalLLaMA"
-      url: "https://rsshub.app/reddit/subreddit/LocalLLaMA"
+      url: "https://rss.app/feeds/u5mG3aA24JstW9S5.xml"
 
     - id: "swe-bench"
       name: "SWE-bench 官方博客"
@@ -133,8 +127,8 @@ rss:
       url: "https://arxiv.org/rss/cs.HC"
 
     - id: "paperswithcode"
-      name: "Papers with Code"
-      url: "https://rsshub.app/paperswithcode/trending"
+      name: "Hugging Face Daily Papers"
+      url: "https://rsshub.buzz/huggingface/daily-papers"
 
     - id: "infoq"
       name: "InfoQ"
