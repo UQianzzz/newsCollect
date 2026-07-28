@@ -114,7 +114,7 @@ rss:
 
     - id: "indienova"
       name: "indienova 独立游戏"
-      url: "https://indienova.com/feed"
+      url: "https://indienova.com/gamedb/rss"
 
     - id: "gamelook"
       name: "GameLook"
@@ -122,11 +122,11 @@ rss:
 
     - id: "reddit-localllama"
       name: "Reddit LocalLLaMA"
-      url: "https://www.reddit.com/r/LocalLLaMA/.rss"
+      url: "https://rsshub.app/reddit/subreddit/LocalLLaMA"
 
     - id: "swe-bench"
       name: "SWE-bench 官方博客"
-      url: "https://www.swebench.com/feed.xml"
+      url: "https://github.com/swe-bench/SWE-bench/releases.atom"
 
     - id: "arxiv-hc"
       name: "arXiv HCI"
@@ -134,7 +134,7 @@ rss:
 
     - id: "paperswithcode"
       name: "Papers with Code"
-      url: "https://paperswithcode.com/rss/trending/"
+      url: "https://rsshub.app/paperswithcode/trending"
 
     - id: "infoq"
       name: "InfoQ"
@@ -192,14 +192,14 @@ ai_filter:
   batch_size: 200                         # 每批发送给 AI 的标题数，超过此数量自动分批
   batch_interval: 2                       # 分批间隔（秒），避免触发 API 限流，0=不等待
 
-  min_score: 0.7                          # 推送最低分数阈值（0.0~1.0），值越高越严格
+  min_score: 0.3                          # 推送最低分数阈值（0.0~1.0），值越高越严格
                                           # 推荐 0.5~0.7 起步，0=不过滤
 
   # 兴趣描述文件（默认 config/ai_interests.txt，无需配置）
   # 自定义文件放入 config/custom/ai/ 目录，然后指定文件名：
   # interests_file: "finance.txt"    # → 加载 config/custom/ai/finance.txt
 
-  reclassify_threshold: 0.6              # 全量重分类触发阈值（0~1）
+  reclassify_threshold: 0.4               # 全量重分类触发阈值（0~1）
                                           # 越低越倾向全量重分类（更准但更耗 token）
                                           # 越高越倾向增量更新（更省但可能不够新）
 
