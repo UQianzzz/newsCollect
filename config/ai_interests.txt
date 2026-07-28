@@ -10,15 +10,15 @@
 # 重要性排序说明：从上到下优先级递减，越靠前越重要。
 # 如果一条新闻同时可能匹配多个方向，请优先归入更靠前的方向。
 
-1. AI 辅助编程与智能体（AI Coding & Agents）：重点关注 Cursor、GitHub Copilot、Google Antigravity、Cline、Aider 等 AI-Native IDE 与插件的更新；关注 SWE-bench、LiveCodeBench 等 AI 编程评测榜单；关注 Vibe Coding、Coding Agent、MCP (Model Context Protocol) 协议、工具调用 (Tool Calling)、Prompt 工程与上下文窗口 (Context Window) 等技术落地实践。
+1. AI 辅助编程与智能体（AI Coding & Agents）
 
-2. 游戏开发技术与产业生态：重点关注 Cocos (Cocos Creator)、Unity、Unreal Engine 等游戏引擎的技术调优与版本更新；关注 indienova、GameLook 等独立游戏开发、玩法设计与商业化动态；关注腾讯游戏（天美、光子等）、网易游戏、米哈游、任天堂等头部游戏厂商的爆款产品、技术架构分享与游戏出海趋势。
+2. 游戏开发技术与产业生态
 
-3. 人机交互与前沿 AI 理论（HCI & AI Companion）：重点关注 arXiv HCI、ACM SIGCHI、Papers with Code 相关的最新学术论文与开源项目；关注伴侣型 AI (Companion AI)、人类与 AI 的情感连接、社交机器人 (Social Robots) 及 CASA 范式等人机交互领域的理论与实践进展。
+3. 人机交互与前沿 AI 理论（HCI & AI Companion）
 
-4. 核心大模型与 AI 厂商：关注 DeepSeek (深度求索)、OpenAI (ChatGPT, Sora)、Claude (Anthropic)、Qwen (通义千问)、MiniMax、GLM 等国内外顶尖大语言模型的能力演进、开源闭源策略、推理成本、AI 幻觉治理与 RAG (检索增强生成) 架构应用。
+4. 核心大模型与 AI 厂商
 
-5. 科技巨头与开发者社区：关注 V2EX、Hacker News、GitHub Trending、InfoQ 等极客社区的热门技术讨论；关注微软、谷歌、苹果、腾讯、字节跳动等科技巨头的开发者生态、技术发布会与战略布局。
+5. 科技巨头与开发者社区
 
 6. 开发者求职与行业动态：关注牛客网等平台的求职招聘、前端/游戏开发岗位动态、面试经验与 IT 行业就业风向。
 
